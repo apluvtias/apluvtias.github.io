@@ -1,0 +1,31 @@
+body {
+      background-color: #eeeddd;
+      font-size: 9pt;
+      font-family: Arial;
+}
+
+.boton {
+  color: black;
+  background-color: #ee6600;
+  font-size: 14pt;
+  font-weight: bold;
+  padding: 5px;
+  border: 2px solid black;
+  border-top-color: white;
+  border-left-color: white;
+  margin: 15px;
+}
+
+.boton:active {
+  background-color: #ff7711;
+  border-top-color: black;
+  border-left-color: black;
+  border-right-color: white;
+  border-bottom-color: white;
+}  
+
+.cuadro {
+  white-space: nowrap;
+  width: 80px;
+  line-height: 4.0;
+}

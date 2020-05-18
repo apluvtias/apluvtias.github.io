@@ -1,0 +1,31 @@
+<html>
+<head>
+      <title>Prueba de soundboard</title>
+      <link href="estilo.css" type="text/css" rel="stylesheet">
+      <script type="text/javascript">
+      function play(file) {
+               audioplayer = document.getElementById('audio1');
+               audioplayer.src = file;
+               audioplayer.load();
+               audioplayer.play();
+      }
+      </script>
+</head>
+
+<body>
+      <h3 align="center">Soundboard</h3>
+
+      <span class="cuadro"><a class="boton" href="#" onclick="play('hola.mp3');">Hola</a></span>
+      <span class="cuadro"><a class="boton" href="#" onclick="play('buenas.mp3');">Buenas</a> </span>
+      <span class="cuadro"><a class="boton" href="#" onclick="play('acaando.mp3');">Aca ando, tirando</a></span>
+      <span class="cuadro"><a class="boton" href="#" onclick="play('ehbueno.mp3');">Eh, bueno</a> </span>
+      <span class="cuadro"><a class="boton" href="#" onclick="play('caiga.mp3');">Seria una pena</a></span>
+      <span class="cuadro"><a class="boton" href="#" onclick="play('miseria.mp3');">Porca miseria</a></span>
+      <span class="cuadro"><a class="boton" href="#" onclick="play('yendo.mp3');">Me voy a ir yendo</a></span>
+      <span class="cuadro"><a class="boton" href="#" onclick="play('recording.mp3');">Siempre caigo</a></span>
+
+      <audio name="audio1" id="audio1">
+             <source src="Boing.mp3" type="audio/mpeg">
+      </audio>
+</body>
+</html>
